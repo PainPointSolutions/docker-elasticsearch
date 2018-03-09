@@ -1,4 +1,4 @@
-FROM docker.elastic.co/elasticsearch/elasticsearch-oss:6.2.2
+FROM docker.elastic.co/elasticsearch/elasticsearch-basic:6.2.2
 
 RUN yum -y update
 RUN yum -y install cronie
